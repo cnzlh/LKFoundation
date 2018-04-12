@@ -1,8 +1,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LKFoundation'
-  s.version          = '1.0'
-  s.summary          = 'A short description of LKFoundation.'
+  s.version          = '1.0.1'
+  s.summary          = 'LKFoundation is a collection of useful classes and categories to develop Apps faster'
   s.homepage         = 'https://github.com/cnzlh/LKFoundation'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhulinhua' => '20825520@qq.com' }
