@@ -1,10 +1,5 @@
 # LKFoundation
 
-[![CI Status](http://img.shields.io/travis/zhulinhua/LKFoundation.svg?style=flat)](https://travis-ci.org/zhulinhua/LKFoundation)
-[![Version](https://img.shields.io/cocoapods/v/LKFoundation.svg?style=flat)](http://cocoapods.org/pods/LKFoundation)
-[![License](https://img.shields.io/cocoapods/l/LKFoundation.svg?style=flat)](http://cocoapods.org/pods/LKFoundation)
-[![Platform](https://img.shields.io/cocoapods/p/LKFoundation.svg?style=flat)](http://cocoapods.org/pods/LKFoundation)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

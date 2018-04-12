@@ -1,0 +1,6 @@
+framework module LKFoundation {
+  umbrella header "LKFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
