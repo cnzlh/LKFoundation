@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LKFoundation_Example' do
+  pod 'LKFoundation', :path => '../'
+
+  target 'LKFoundation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
