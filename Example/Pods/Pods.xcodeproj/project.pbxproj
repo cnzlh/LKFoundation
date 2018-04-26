@@ -16,6 +16,11 @@
 		BBAE9E155FA00E98C9340442578D8355 /* Pods-LKFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C391337C46E12B206CA221BA034ADBE /* Pods-LKFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF76D98D3FF84F41B13DCEEE90B3E05B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C917743862B7900FB73D9846CEB9DC5A /* Pods-LKFoundation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB6352B2F20B2F2E363B1BBDFCE1AB5 /* Pods-LKFoundation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D72B82072090717E00C301E8 /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72B82062090717E00C301E8 /* FileManagerExtension.swift */; };
+		D72B820920907AB500C301E8 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72B820820907AB500C301E8 /* UIImageExtension.swift */; };
+		D72B820B20907B1600C301E8 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72B820A20907B1600C301E8 /* DateExtension.swift */; };
+		D72B820F209080AB00C301E8 /* NumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72B820E209080AB00C301E8 /* NumberExtension.swift */; };
+		D7611DEF208DC9C3005FB6BB /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7611DEE208DC9C3005FB6BB /* StringExtension.swift */; };
 		D7E74702207F22F100EF4E23 /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E74700207F22F100EF4E23 /* UIColorEx.swift */; };
 		D7E74703207F22F100EF4E23 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E74701207F22F100EF4E23 /* CGRectEx.swift */; };
 		D7E74706207F240400EF4E23 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E74705207F240400EF4E23 /* Common.swift */; };
@@ -58,6 +63,11 @@
 		C38D1B82EDAA3FC58218B00A8EF9D545 /* LKFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LKFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43EE82ABD49A0C3716807FCC5C059F7 /* Pods-LKFoundation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LKFoundation_Tests-dummy.m"; sourceTree = "<group>"; };
 		D6545D5D3D04FC0CB2071D112FFE0D88 /* LKFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKFoundation-prefix.pch"; sourceTree = "<group>"; };
+		D72B82062090717E00C301E8 /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
+		D72B820820907AB500C301E8 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		D72B820A20907B1600C301E8 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		D72B820E209080AB00C301E8 /* NumberExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberExtension.swift; sourceTree = "<group>"; };
+		D7611DEE208DC9C3005FB6BB /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		D7E74700207F22F100EF4E23 /* UIColorEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorEx.swift; sourceTree = "<group>"; };
 		D7E74701207F22F100EF4E23 /* CGRectEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectEx.swift; sourceTree = "<group>"; };
 		D7E74705207F240400EF4E23 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
@@ -197,6 +207,11 @@
 			children = (
 				D7E74701207F22F100EF4E23 /* CGRectEx.swift */,
 				D7E74700207F22F100EF4E23 /* UIColorEx.swift */,
+				D7611DEE208DC9C3005FB6BB /* StringExtension.swift */,
+				D72B82062090717E00C301E8 /* FileManagerExtension.swift */,
+				D72B820820907AB500C301E8 /* UIImageExtension.swift */,
+				D72B820A20907B1600C301E8 /* DateExtension.swift */,
+				D72B820E209080AB00C301E8 /* NumberExtension.swift */,
 			);
 			name = Extensions;
 			path = LKFoundation/Classes/Extensions;
@@ -351,9 +366,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7E74706207F240400EF4E23 /* Common.swift in Sources */,
+				D72B820B20907B1600C301E8 /* DateExtension.swift in Sources */,
+				D72B82072090717E00C301E8 /* FileManagerExtension.swift in Sources */,
+				D72B820920907AB500C301E8 /* UIImageExtension.swift in Sources */,
 				D7E74702207F22F100EF4E23 /* UIColorEx.swift in Sources */,
+				D7611DEF208DC9C3005FB6BB /* StringExtension.swift in Sources */,
 				D7E74703207F22F100EF4E23 /* CGRectEx.swift in Sources */,
 				5ED57649049B02BAB1FB14DA11EAED8D /* LKFoundation-dummy.m in Sources */,
+				D72B820F209080AB00C301E8 /* NumberExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
