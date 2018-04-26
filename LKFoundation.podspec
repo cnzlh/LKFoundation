@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source_files     = 'LKFoundation/Classes/**/*'
   s.frameworks       = 'Foundation'
-  s.platform            = :ios
+  s.platform            = :ios, '9.0'
 end
