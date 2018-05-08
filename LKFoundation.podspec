@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LKFoundation'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'LKFoundation is a collection of useful classes and categories to develop Apps faster'
   s.homepage         = 'https://github.com/cnzlh/LKFoundation'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
